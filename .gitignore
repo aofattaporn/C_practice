@@ -1,1 +1,7 @@
 *.vscode
+.basic
+.triang
+.assign_typeData
+.find_curcleArea
+.find_register
+find_Square
