@@ -1,5 +1,7 @@
 #include<stdio.h> 
 int main(){ 
+    printf("\n");
+
     int hight, width;
     printf("DIFFERENCE DIVISION OF TYPE DATA\n");
     printf("1 / 2 = %d\n", (1 / 2));      //integer หารกันได้เป็นผลลัพธ์ ไม่คิดเศษ 
@@ -11,9 +13,12 @@ int main(){
     printf("Enter width :");
     scanf("%d", &width);
 
-    int area ;
-    area = 0.5 * width * hight;
-    printf("area :%d\n", area);
+    float area ; // => when assign area is float 
+    int area2;
+    area = 0.5 * width * hight; // I must to know type of area 
+    area2 = 0.5 * width * hight; // I must to know type of area 
+    printf("area :%f\n", area);
+    printf("area :%d\n\n", area2);
 
 
 

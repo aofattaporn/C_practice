@@ -13,14 +13,20 @@ int main() {
 
 // เครื่องหมาย \n : escape sequences : เครื่องหมายพิเศษ 
 // n -> new line 
+
+// piority of operation : () pow * / + -
     
     printf("Test-operation-for-math");
-    printf("%d\n", 5+3);
-    printf("%d\n", 5-3);
-    printf("%d\n", 5*3);
-    printf("%d\n", 5/3);
-    printf("%f\n", 5/3.0);
-    printf("%f\n", pow(2, 3));
+    printf("5 + 3 : %d\n", 5+3);
+    printf("5 - 3 : %d\n", 5-3);
+    printf("5 * 3 : %d\n", 5*3);
+    printf("5 / 3 : %d             => integer by integer result is the interger number (result)\n", 5/3);
+    printf("5 / 3.0 : %f    => If there is any float type, It is float number  \n", 5/3.0);
+    printf("5 / 3.0 : %d       => format specifier is not tru  \n", 5/3.0);
+    printf("5 modolus 3.0 : %d     => modulus must to use persent-d because there have use integer by integer  \n", 5%3);
+
+    printf("ppow(2, 3) : %f => *The pow command return is duble\n\n", pow(2, 3));
+
 
 }
 
