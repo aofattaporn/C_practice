@@ -5,4 +5,6 @@ int main() {
     scanf("%d", &x);
     sx=x*x;
     printf("Square x= %d\n", sx);
+    printf("Square x= %d\n", sx);
+
 }
