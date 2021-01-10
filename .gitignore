@@ -1,10 +1,3 @@
 *.vscode
-.basic
-.triang
-.assign_typeData
-.find_curcleArea
-.find_register
-find_Square
-.basic
-.basic.c
-practice_form_yutube/basic.c
+practice_form_yutube/triang.c
+test_gitignore.c
