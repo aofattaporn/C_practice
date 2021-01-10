@@ -28,6 +28,15 @@ int main() {
     printf("ppow(2, 3) : %f => *The pow command return is duble\n\n", pow(2, 3));
 
 
+    printf("======================= Test a Type data ===========================\n");
+    printf("-> use show string that have a 2 type");
+    char *hero = "spiderman";
+    printf("%s\n", hero);
+    char coountry[] = "Thailand"; 
+    printf("%s\n", coountry);
+
+
+
 }
 
 
