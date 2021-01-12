@@ -96,13 +96,35 @@ void calculator() {
 }
 }
 
+void while_loop() { 
+    int i = 1;
+    // เหมาะกับการที่เรารู้เงื่อไขแต่เราไม่รู้รอบ 
+    while(i <= 10 ) { 
+        printf("i = %d\n", i);
+        ++i; 
+    }
+    
+    int sum;
+    int n;
+    do { 
+        printf("enter a number: "); 
+        scanf("%d", &n); 
+        sum = sum + n; 
+    } while (n != 0 );
+    printf("sum = %d\n", sum);
+  
+    
+    
+}
 
 int main(){ 
     
-    printf("\n");
-    ternary3();
-    switch_demo();
-    loop_repeat();
-    convert_ounces();
-    calculator();
+    // printf("\n");
+    // ternary3();
+    // switch_demo();
+    // loop_repeat();
+    // convert_ounces();
+    // calculator();
+
+    // while_loop();
 }
