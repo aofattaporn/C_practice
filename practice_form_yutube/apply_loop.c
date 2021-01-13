@@ -1,5 +1,25 @@
 #include<stdio.h> 
+#include<stdbool.h>
+#include"charecter.h"
+//function declaration
+int gcc(int a, int b);
+int gcd_euclid(int a, int b);
+int leapYear(int year);
+int leapYear(int year);
+void az();
 
+
+int main() {   
+
+
+    printf("gcd(%d, %d) : %d\n", 9, 21, gcc(9, 21));
+    printf("gcd(%d, %d) : %d\n", 9, 21, gcd_euclid(9, 21));
+
+    printf("%d\n", leapYear(2017));
+    az();
+}
+
+// funtion defination 
 int gcc(int a, int b) { 
     printf("\n");
     int min = a < b ? a:b;
@@ -38,9 +58,18 @@ int gcd_euclid(int a, int b) {
 //     }   
 // }
 
-int main() { 
+int leapYear(int year) { 
+    // boolean
+    // int r;
+    // r = year % 4; 
+    // if (r == 0) { 
+    //     return true;
+    // } else
+    // {
+    //     return false;
+    // }
+    return year % 4 == 0 ? true : false ;
 
-
-    printf("gcd(%d, %d) : %d\n", 9, 21, gcc(9, 21));
-    printf("gcd(%d, %d) : %d\n", 9, 21, gcd_euclid(9, 21));
+    
 }
+
