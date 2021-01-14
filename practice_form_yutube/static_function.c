@@ -20,7 +20,7 @@ void move(int x, int y){
 
 }
 
-// Learn struct keyword
+// Learn structure
 struct Coord {
     double x;
     double y;
@@ -30,12 +30,11 @@ double distance2(struct Coord p1,struct Coord p2) {
     // เป็นการระบุว่า p2 มีตัวแปรข้างในสองตัว คือ x, y
     return sqrt(pow((p1.x - p2.x), 2) + pow((p1.y - p2.y), 2));
 };
-
 double distance1(double x1, double y1, double x2, double y2) { 
     return sqrt(pow((x1- x2), 2) + pow((y1 - y2), 2));
 }
  
-// Learn many return 
+// Learn many return -> have a pointer 
     // TOTAL price = 107, price = 100, VAT = 7 
 void pricePart( double totalPrice, double *price, double *vat) { // function เป็น void 
     *vat = totalPrice * 7.0 / 107;
@@ -60,19 +59,19 @@ int main () {
         move(i + 5, i *2);
     }
 
-    // struck keyword 
+    // structure 
     printf("==================LEARN STRUCK============================\n");
     // diatance 1 nomal step 
     double d1 = distance1(2, 5, 4, 10);
-    printf("d1 = %.2f\n", d1);
+    printf("normal way   -> d1 = %.2f\n", d1);
 
-    // distance 2 struct keyword
+    // distance 2 struct keywordy (assign ่า)
     struct Coord p1; // เรียกใช้ แบบยาว ต้องเรียกใช้ก่อน ค่อย assign ค่า 
     p1.x = 2; 
     p1.y = 5;
     struct Coord p2 = {4, 10}; // เรียกใช้ แบบสั้น ต้องเรียกใช้ก่อน ค่อย assign ค่า 
     double d2 = distance2(p1, p2);
-    printf("d2 = %.2f\n", d2);
+    printf("structur way -> d2 = %.2f\n", d2);
 
     // 
     printf("==================LEARN MANY WRETUEN======================\n");
