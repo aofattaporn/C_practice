@@ -5,15 +5,15 @@ struct test{
     int y;
 }abc; 
 
-typedef struct {
-    int x; 
-    int y;
+typedef struct NAME{
+    int a; 
+    int b;
 }abc2;
 
 
 
 int main() { 
-    // การใช้ 
+    // การประกาศในแบบที่ 1
     // struct struct_name var_name;
     struct test test1; 
     // var_name.var_name_in_struvtur
@@ -21,9 +21,12 @@ int main() {
     test1.y = 10;
     printf("%d, %d\n", test1.x, test1.y);
 
+    // การประกาศในแบบที่ 2
     abc2 test2; 
-    test2.x = 11; 
-    test2.y = 11;
-    printf("%d, %d\n", test2.x, test2.y);
+    test2.a = 11; 
+    test2.b = 11;
+    struct NAME variable;
+    // NAME variable2;
+    printf("%d, %d\n", test2.a, test2.a);
 }
 
