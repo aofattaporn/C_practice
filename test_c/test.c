@@ -1,17 +1,17 @@
 #include<stdio.h> 
 int main(){ 
-    int x = 7; 
-    int y = 3; 
-    float z = 2;
-    for (size_t i = 0; i < count; i++)
-    {
-        /* code */
-    }
-    
-
-
-    printf("%d\n", x / y);
-
+    int a = 5; 
+    int b = 10; 
+    float c;
+    printf("input c :");
+    scanf("%d\", &c);
+    printf("brabra");
+    // printf("Example\n"); 
+    // printf("2a = %d\n", a);
+    // printf("a\tb\tc\n"); 
+    // printf("%d\t%d\t%d\n", a, b, c);
+    // printf("%d\n", a);
+    // printf("%d\n", b);
 
 
 }
