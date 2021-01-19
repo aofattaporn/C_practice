@@ -103,22 +103,22 @@ void while_loop() {
         printf("i = %d\n", i);
         ++i; 
     }
-    
-    int sum;
-    int n;
-    do { 
-        printf("enter a number: "); 
-        scanf("%d", &n); 
-        sum = sum + n; 
-    } while (n != 0 );
-    printf("sum = %d\n", sum);
+    // return 0;
+    // int sum;
+    // int n;
+    // do { 
+    //     printf("enter a number: "); 
+    //     scanf("%d", &n); 
+    //     sum = sum + n; 
+    // } while (n != 0 );
+    // printf("sum = %d\n", sum);
   
     
     
 }
 
 int main(){ 
-    
+
     // printf("\n");
     // ternary3();
     // switch_demo();
