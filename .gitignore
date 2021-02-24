@@ -42,3 +42,6 @@ exercise/fibonaci
 #test_c
 test_c/charecter_hide
 test_c/star
+test_c/sequan
+.DS_Store
+test_c/tempCodeRunnerFile.c
